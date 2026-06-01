@@ -126,8 +126,6 @@ EXPOSE 3000
 CMD ["node", "index.js"]
 ```
 
-> **Atenção:** O `Dockerfile` está localizado em `public/public/` em vez da raiz do projeto. Mova-o para a raiz antes de executar o `docker build`.
-
 ---
 
 ## API
