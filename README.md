@@ -62,7 +62,6 @@ trabalhoso/
 │           └── app.js    # Lógica de polling e atualização do DOM
 ```
 
-> **Nota:** A estrutura de pastas `public/public/public/` é acidental e provavelmente resultado de commits incorretos. O ideal é reorganizar os arquivos estáticos (`app.js`, `style.css`) para ficarem diretamente em `public/`.
 
 ---
 
