@@ -57,3 +57,12 @@ function formatarTempo(segundos){
 carregarDados();
 
 setInterval(carregarDados, 5000);
+
+document.getElementById('cpuLoad').textContent =
+    dados.cpuLoad;
+
+document.getElementById('arquivos').textContent =
+    dados.totalArquivos;
+
+document.getElementById('status').textContent =
+    dados.status;
